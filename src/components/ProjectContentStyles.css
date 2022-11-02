@@ -1,0 +1,60 @@
+.project .first {
+    padding: 2rem 0 2rem 3rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+}
+
+.project .first p{
+    color: rgb(55, 34, 34);
+}
+
+.project .first a{
+    color:green;
+}
+
+
+@media screen and (max-width: 1040px){
+    .project .first {
+        padding: 2rem 0 2rem 3rem;
+        background-color: #fff;
+        color: black;
+        width: 76vh;
+        font-size: 15px;
+    
+    }
+    
+    .project .first p{
+        color: rgb(55, 34, 34);
+        font-size: 10px;
+    }
+    
+    .project .first a{
+        color:green;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    .project .first {
+        padding: 2rem 0 2rem 3rem;
+        background-color: #fff;
+        color: black;
+        width: 45vh;
+        font-size: 12px;
+    
+    }
+    
+    .project .first p{
+        color: rgb(55, 34, 34);
+        font-size: 8px;
+    }
+    
+    .project .first a{
+        color:green;
+    }
+    
+}

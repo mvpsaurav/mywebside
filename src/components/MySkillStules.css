@@ -1,0 +1,208 @@
+.myskill{
+    background-color: white;
+    margin: 10%;
+    padding: 10%;
+    border-radius: 50px;
+}
+.myintro{
+    padding-left: 10px;
+}
+
+.myintro h2{
+    padding: 10px 0 0 20px;
+}
+
+.myskill .myskillcontainer .box{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.myintro .myskillcontainer .skillitem{
+    padding: 7px;
+    font-size: 15px;
+    display: flex;
+    flex-direction:  row;
+    /* display: flex; */
+    align-items: center;
+}
+
+.skill{
+    padding-left: 10px;
+    height: 7px;
+    /* background-color: red; */
+    width: 500px;
+}
+
+.corejava{
+    width: 450px;
+    background-color: red;
+}
+
+.oops{
+    width: 450px;
+    background-color: green;
+}
+
+.html{
+    width: 450px;
+    background-color: red;
+}
+
+.css{
+    width: 300px;
+    background-color: pink;
+}
+
+.javascript{
+    width: 250px;
+    background-color: rgb(190, 92, 92);
+}
+
+.php{
+    width: 200px;
+    background-color: blueviolet;
+}
+.react{
+    width: 100px;
+    background-color: green;
+}
+.mysql{
+    width: 430px;
+    background-color: rgb(104, 156, 245);
+}
+
+
+    
+@media screen and (max-width: 640px){
+    .myskill{
+        height: 100%;
+        width: 80%;
+        box-sizing: border-box;
+        font: 10;
+    }
+
+    .myskill .myskillcontainer .box{
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .myintro .myskillcontainer .skillitem{
+        padding: 7px;
+        font-size: 15px;
+        display: flex;
+        flex-direction:  row;
+        /* display: flex; */
+        align-items: center;
+    }
+
+    
+.corejava{
+    width: 250px;
+    background-color: red;
+}
+
+.oops{
+    width: 250px;
+    background-color: green;
+}
+
+.html{
+    width: 250px;
+    background-color: red;
+}
+
+.css{
+    width: 150px;
+    background-color: pink;
+}
+
+.javascript{
+    width: 150px;
+    background-color: rgb(190, 92, 92);
+}
+
+.php{
+    width: 120px;
+    background-color: blueviolet;
+}
+.react{
+    width: 100px;
+    background-color: green;
+}
+.mysql{
+    width: 230px;
+    background-color: rgb(104, 156, 245);
+}
+
+
+}
+
+
+    
+@media screen and (max-width: 400px){
+    
+    .myskill{
+        height: 100%;
+        width: 80%;
+        box-sizing: border-box;
+        font: 10;
+    }
+
+    .myskill .myskillcontainer .box{
+        width: 230px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .myintro .myskillcontainer .skillitem{
+        padding: 7px;
+        font-size: 15px;
+        display: flex;
+        flex-direction:  row;
+        /* display: flex; */
+        align-items: center;
+    }
+
+    
+.corejava{
+    width: 200px;
+    background-color: red;
+}
+
+.oops{
+    width: 200px;
+    background-color: green;
+}
+
+.html{
+    width: 200px;
+    background-color: red;
+}
+
+.css{
+    width: 120px;
+    background-color: pink;
+}
+
+.javascript{
+    width: 120px;
+    background-color: rgb(190, 92, 92);
+}
+
+.php{
+    width: 100px;
+    background-color: blueviolet;
+}
+.react{
+    width: 80px;
+    background-color: green;
+}
+.mysql{
+    width: 110px;
+    background-color: rgb(104, 156, 245);
+}
+
+
+}
